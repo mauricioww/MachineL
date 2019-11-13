@@ -15,7 +15,7 @@ def experiment():
     return [first, minim, rand]
 
 if __name__ == '__main__':
-    nExp = 600
+    nExp = 1
     selectCoins = [0]*1000
     for i in range(nExp):
         for index in experiment():
